@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github" fetch="https://github.com/" />
+  
+  <include name="aosp/default.xml" />
+
+  <project remote="github"
+           revision="70014c61cc3c9c4c398a0acbddddc9fd4fc12764"
+           name="Pelagicore/softwarecontainer"
+           path="override/softwarecontainer" />
+</manifest>
