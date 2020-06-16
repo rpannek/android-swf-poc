@@ -7,7 +7,5 @@ To initialize run:
 
     mkdir poc-workspace
     cd poc-workspace
-    repo init -u https://github.com/rpannek/android-swf-poc.git \
-        -b master \
-        -m override.xml
+    repo init -u https://github.com/rpannek/android-swf-poc.git
     repo sync -j$(nproc) -c
