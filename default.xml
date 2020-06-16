@@ -2,13 +2,12 @@
 <manifest>
   <remote  name="github" fetch="https://github.com/" />
 
-  <include name="aosp/default.xml" />
-
-  <remote name="aosp2"
-          alias="aosp"
+  <remote name="aosp"
           fetch="https://android.googlesource.com/"
           review="https://android-review.googlesource.com/" />
-  
+
+  <include name="aosp/default.xml" />
+
   <project remote="github"
            revision="70014c61cc3c9c4c398a0acbddddc9fd4fc12764"
            name="Pelagicore/softwarecontainer"
